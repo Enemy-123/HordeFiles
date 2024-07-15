@@ -1,0 +1,97 @@
+{
+"mapversion" "220"
+"classname" "worldspawn"
+}
+{
+"classname" "misc_teleporter"
+"origin" "360 84 200"
+"target" "t1"
+}
+{
+"classname" "light"
+"origin" "208 -48 128"
+}
+{
+"classname" "light"
+"origin" "8 -48 128"
+}
+{
+"classname" "light"
+"origin" "344 -48 216"
+}
+{
+"classname" "light"
+"origin" "336 -56 80"
+}
+{
+"classname" "light"
+"origin" "104 -56 224"
+}
+{
+"classname" "light"
+"origin" "-128 -56 168"
+}
+{
+"classname" "light"
+"origin" "56 168 224"
+}
+{
+"classname" "light"
+"origin" "272 216 80"
+}
+{
+"classname" "light"
+"origin" "-160 168 168"
+}
+{
+"classname" "light"
+"origin" "-352 168 168"
+}
+{
+"classname" "light"
+"origin" "-304 -40 168"
+}
+{
+"classname" "light"
+"origin" "328 224 216"
+}
+{
+"classname" "light"
+"origin" "32 232 80"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-32 0 40"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "192 -32 40"
+"angles" "0 90 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-192 128 40"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-304 192 40"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "192 192 88"
+"angles" "0 -90 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-208 -96 40"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-384 48 40"
+"targetname" "t1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "304 144 40"
+"angles" "0 180 0"
+}
