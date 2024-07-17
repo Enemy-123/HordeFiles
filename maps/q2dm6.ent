@@ -116,7 +116,7 @@
 "classname" "item_armor_body"
 }
 {
-"target" "asdaf"
+"target" "t9"
 "classname" "trigger_multiple"
 "model" "*1"
 }
