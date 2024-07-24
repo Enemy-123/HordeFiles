@@ -1656,11 +1656,6 @@
 "classname" "item_health_mega"
 }
 {
-"origin" "-2251 -284 16"
-"spawnflags" "0"
-"classname" "weapon_supershotgun"
-}
-{
 "origin" "-955 -542 24"
 "spawnflags" "1792"
 "classname" "weapon_rocketlauncher"
@@ -5067,25 +5062,18 @@
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-2208 -528 728"
-"angles" "0 0 0"
-"style" "1"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-1392 -704 728"
+"origin" "-1936 -816 728"
 "angles" "0 -180 0"
 "style" "1"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-1776 -912 728"
+"origin" "-1712 -496 648"
 "angles" "0 90 0"
 "style" "1"
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "-1520 -912 728"
-"angles" "0 90 0"
-"style" "1"
+"origin" "-2251 -284 16"
+"spawnflags" "0"
+"classname" "weapon_supershotgun"
 }
