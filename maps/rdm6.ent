@@ -1915,3 +1915,18 @@
 "classname" "info_player_deathmatch"
 "origin" "2272 1152 152"
 }
+{
+"classname" "misc_teleporter"
+"origin" "-1152 800 24"
+"target" "asdf"
+}
+{
+"classname" "misc_teleporter"
+"origin" "-1152 992 24"
+"target" "asdf"
+}
+{
+"classname" "misc_teleporter_dest"
+"origin" "-1152 1008 240"
+"targetname" "asdf"
+}
