@@ -5,11 +5,11 @@
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-432 160 24"
+"origin" "-368 208 24"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-432 -144 24"
+"origin" "-368 -96 24"
 }
 {
 "classname" "light"
@@ -102,15 +102,15 @@
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-432 64 24"
+"origin" "-368 112 24"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-432 -32 24"
+"origin" "-368 16 24"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-320 -64 24"
+"origin" "-80 -32 24"
 }
 {
 "classname" "info_player_deathmatch"
@@ -162,11 +162,11 @@
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-176 -272 24"
+"origin" "-160 -272 24"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-160 -400 24"
+"origin" "-176 -416 24"
 }
 {
 "classname" "info_player_deathmatch"
