@@ -1,0 +1,193 @@
+{
+"classname" "worldspawn"
+"_bounce" "1"
+"_sun_mangle" "30 -75 0"
+"_sunlight" "128"
+"_sunlight2" "512"
+"_sunlight2_color" "125 140 135"
+"_sunlight_color" "125 150 200"
+"sky" "ruined_earth_city_"
+"message" "Way of the Marine"
+"sounds" "10"
+"fog_sky_factor" "0.3"
+"heightfog_end_dist" "-854"
+"heightfog_density" "0.0005"
+"heightfog_end_color" "0.195 0.155 0"
+"heightfog_start_color" "0.195 0.315 0.315"
+"heightfog_falloff" "0.004"
+"heightfog_start_dist" "112"
+"fog_color" "0.195 0.315 0.315"
+"fog_density" "0"
+"loop_count" "0"
+"start_items" " weapon_grenadelauncher 1; ammo_grenades 50; weapon_machinegun 1; ammo_bullets 100; weapon_etf_rifle 1"
+}
+{
+"classname" "monster_mutant"
+"origin" "3456 3264 128"
+"spawnflags" "65536"
+}
+{
+"classname" "monster_mutant"
+"origin" "3552 3088 112"
+"spawnflags" "65536"
+"angle" "270"
+}
+{
+"classname" "monster_mutant"
+"origin" "3712 2904 88"
+"spawnflags" "65536"
+"angle" "300"
+}
+{
+"classname" "monster_mutant"
+"origin" "3264 2952 104"
+"spawnflags" "65536"
+"angle" "270"
+}
+{
+"classname" "monster_mutant"
+"origin" "3424 2912 104"
+"spawnflags" "65536"
+}
+{
+"classname" "monster_mutant"
+"origin" "2944 3040 128"
+"spawnflags" "65536"
+"angle" "270"
+}
+{
+"classname" "monster_mutant"
+"origin" "3104 3552 152"
+"spawnflags" "65536"
+}
+{
+"classname" "monster_mutant"
+"origin" "3264 3520 152"
+"spawnflags" "65536"
+"angle" "225"
+}
+{
+"classname" "monster_mutant"
+"origin" "2688 -960 -200"
+"spawnflags" "65536"
+}
+{
+"classname" "monster_mutant"
+"origin" "2944 -1056 -200"
+"spawnflags" "65536"
+"angle" "135"
+}
+{
+"classname" "monster_mutant"
+"origin" "2528 -160 -200"
+"spawnflags" "65536"
+"angle" "225"
+}
+{
+"classname" "info_player_start"
+"origin" "3184 2976 152"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2896 2592 136"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3648 2656 136"
+"angles" "0 90 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3648 3472 168"
+"angles" "0 -90 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3216 3744 232"
+"angles" "0 -90 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3392 3712 216"
+"angles" "0 -90 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2880 3472 216"
+"angles" "0 0 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3376 3360 184"
+"angles" "0 -90 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3680 3152 168"
+"angles" "0 180 0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3200 2592 136"
+"angles" "0 90 0"
+}
+{
+"classname" "misc_bigviper"
+"origin" "2464 3400 304"
+"angle" "0"
+"scale" "1.5"
+}
+{
+"classname" "misc_bigviper"
+"origin" "3704 2096 296"
+"angle" "90"
+"scale" "1.5"
+}
+{
+"classname" "misc_bigviper"
+"origin" "3704 2096 416"
+"angle" "90"
+"scale" "1.5"
+}
+{
+"classname" "misc_bigviper"
+"origin" "2464 3400 416"
+"angle" "0"
+"scale" "1.5"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3376 3360 1016"
+"angles" "0 -90 0"
+"style" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2880 3472 984"
+"angles" "0 0 0"
+"style" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3648 2656 920"
+"angles" "0 90 0"
+"style" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3376 3360 1016"
+"angles" "0 -90 0"
+"style" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2880 3472 984"
+"angles" "0 0 0"
+"style" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3648 2656 920"
+"angles" "0 90 0"
+"style" "1"
+}

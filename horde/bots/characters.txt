@@ -1,0 +1,951 @@
+// Overview Of Bot Character Properties:
+
+// fun_name:	name of the bot as it will appear in-game.
+// name:		simple name to use when calling "addbot" console command directly.
+// skin:		name of the skin to use. List of valid skins below.
+// dogtag:		name of the 'dogtag' background to use in the scoreboard.
+
+
+// Valid Skins:
+
+// female/athena
+// female/brianna
+// female/cobalt
+// female/ctf_b
+// female/ctf_r
+// female/disguise
+// female/ensign
+// female/jezebel
+// female/jungle
+// female/lotus
+// female/rogue_b
+// female/rogue_r
+// female/stiletto
+// female/venus
+// female/voodoo
+
+// male/cipher
+// male/claymore
+// male/ctf_b
+// male/ctf_r
+// male/deaddude
+// male/disguise
+// male/flak
+// male/grunt
+// male/howitzer
+// male/insane1
+// male/insane2
+// male/insane3
+// male/major
+// male/nightops
+// male/pointman
+// male/psycho
+// male/rampage
+// male/razor
+// male/recon
+// male/rogue_b
+// male/rogue_r
+// male/scout
+// male/sniper
+// male/viper
+
+// cyborg/ctf_b
+// cyborg/ctf_r
+// cyborg/disguise
+// cyborg/oni911
+// cyborg/ps9000
+// cyborg/tyr574
+
+
+// Valid Dogtags:
+
+// aoe
+// arena
+// bethesda
+// bladerunner
+// blood
+// bloody
+// bronze
+// chips
+// ctf_blue
+// ctf_red
+// daggerfall
+// default
+// doom
+// doom64
+// etqw_gdf
+// etqw_strogg
+// fireblu
+// freecell
+// id
+// keen
+// machinegames
+// minesweeper
+// nightdive
+// powerslave
+// q4_kane
+// q4_strogg
+// quake
+// shadowman
+// skifree
+// ss2
+// ssr
+// turok
+// turok3
+// wasteland
+// wolf3d
+// wolf3d2
+
+{
+  fun_name		[BOT]Major
+  name			major
+  skin			female/brianna
+  dogtag		q4_strogg
+}
+
+{
+  fun_name		[BOT]Barney
+  name			barney
+  skin			male/nightops 
+  dogtag		etqw_gdf
+}
+
+{
+  fun_name		[BOT]Bitterman
+  name			bitter
+  skin			male/grunt
+  dogtag		id
+}
+
+{
+  fun_name		[BOT]ClockParadox
+  name			clock
+  skin			male/grunt
+  dogtag		bethesda
+}
+
+{
+  fun_name		[BOT]Crapshoot
+  name			crap
+  skin			male/ctf_b
+  dogtag		keen  
+}
+
+{
+  fun_name		[BOT]Demona
+  name			demona
+  skin			female/ctf_r
+  dogtag		ctf_red
+}
+
+{
+  fun_name		"[BOT]Mr.Elusive"
+  name			elusive
+  skin			male/sniper
+  dogtag		id  
+}
+
+{
+  fun_name		"[BOT]Omicron"
+  name			omi
+  skin			male/ctf_b
+  dogtag		quake  
+}
+
+{
+  fun_name		"[BOT]Florida Man"
+  name			florida
+  skin			male/insane3
+  dogtag		wolf3d2
+}
+
+{
+  fun_name		[BOT]Fritz
+  name			fritz
+  skin			male/ctf_r
+  dogtag		etqw_strogg
+}
+
+{
+  fun_name		"[BOT]Halo96"
+  name			halo96
+  skin			male/razor
+  dogtag		quake 
+}
+
+{
+  fun_name		[BOT]KillMe
+  name			kill
+  skin			male/nightops
+  dogtag		id  
+}
+
+{
+  fun_name		"[BOT]The Makron"
+  name			makron
+  skin			male/razor
+  dogtag		id  
+}
+
+{
+  fun_name		[BOT]Maleficus
+  name			mal
+  skin			male/rampage
+  dogtag		id
+}
+
+{
+  fun_name		[BOT]manjobangina
+  name			manjo
+  skin			male/grunt
+  dogtag		id  
+}
+
+{
+  fun_name		[BOT]ParadoX
+  name			para
+  skin			male/grunt
+  dogtag		bethesda  
+}
+
+{
+  fun_name		[BOT]Ranger
+  name			ranger
+  skin			male/recon
+  dogtag		quake  
+}
+
+{
+  fun_name		"[BOT]Rockets Gone Wild!"
+  name			rockets
+  skin			male/howitzer
+  dogtag		ssr  
+}
+
+{
+  fun_name		"[BOT]Stroggs Gone Wild!"
+  name			stroggs
+  skin			male/cipher
+  dogtag		etqw_strogg  
+}
+
+{
+  fun_name		[BOT]ShootyMcRocketface
+  name			shooty
+  skin			male/major
+  dogtag		turok3
+}
+
+{
+  fun_name		[BOT]Slambert
+  name			slam
+  skin			male/claymore
+  dogtag		daggerfall  
+}
+
+{
+  fun_name		"[BOT]Spicy Comments!"
+  name			spicy
+  skin			female/jezebel
+  dogtag		fireblu  
+}
+
+{
+  fun_name		"[BOT]Starbuck"
+  name			batty
+  skin			female/ensign
+  dogtag		etqw_gdf 
+}
+
+{
+  fun_name		"[BOT]SyncError"
+  name			sync
+  skin			male/flak
+  dogtag		id
+}
+
+{
+  fun_name		[BOT]TazerFace
+  name			tazer
+  skin			male/razor
+  dogtag		daggerfall  
+}
+
+{
+  fun_name		"[BOT]ThirdPlace"
+  name			princesslexi
+  skin			female/jezebel
+  dogtag		turok 
+}
+
+{
+  fun_name		"[BOT]Love Train"
+  name			train
+  skin			male/rampage
+  dogtag		ss2  
+}
+
+{
+  fun_name		"[BOT]Tsyno"
+  name			speedy
+  skin			cyborg/tyr574
+  dogtag		daggerfall 
+}
+
+{
+  fun_name		[BOT]Azizam
+  name			ozzy
+  skin			female/lotus
+  dogtag		bronze
+}
+
+{
+  fun_name		"[BOT]Mr. Cyrus"
+  name			cyrus
+  skin			male/pointman
+  dogtag		ctf_blue  
+}
+
+{
+  fun_name		"[BOT]Mojeh"
+  name			mojeh
+  skin			female/cobalt
+  dogtag		ctf_red  
+}
+
+{
+  fun_name		"[BOT]Rainbow Sparkles"
+  name			rainbow
+  skin			female/cobalt
+  dogtag		fireblu  
+}
+
+{
+  fun_name		"[BOT]_CRT_SECURE_NO_WARNINGS"
+  name			crt
+  skin			cyborg/ps9000
+  dogtag		skifree  
+}
+
+{
+  fun_name		"[BOT]Ender"
+  name			end
+  skin			male/flak
+  dogtag		nightdive 
+}
+
+{
+  fun_name		"[BOT]Saleck"
+  name			sal
+  skin			cyborg/oni911
+  dogtag		nightdive 
+}
+
+{
+  fun_name		"[BOT]Edward850"
+  name			edward
+  skin			male/scout
+  dogtag		nightdive
+}
+
+{
+  fun_name		"[BOT]kaiser"
+  name			kaiser
+  skin			cyborg/oni911
+  dogtag		nightdive
+}
+
+{
+  fun_name		"[BOT]ptah"
+  name			ptah
+  skin			cyborg/ps9000
+  dogtag		nightdive
+}
+
+{
+  fun_name		"[BOT]villsa"
+  name			villsa
+  skin			male/psycho
+  dogtag		nightdive
+}
+
+{
+  fun_name		"[BOT]TTimo"
+  name			ttimo
+  skin			female/voodoo
+  dogtag		id
+}
+
+{
+  fun_name		"[BOT]#BlameParil"
+  name			paril
+  skin			male/deaddude
+  dogtag		bloody 
+}
+
+{
+  fun_name		"[BOT]beast"
+  name			beast
+  skin			male/sniper
+  dogtag		arena 
+}
+
+{
+  fun_name		"[BOT]dominat0r"
+  name			dom
+  skin			male/flak
+  dogtag		bloody
+}
+
+{
+  fun_name		"[BOT]vampyre"
+  name			vamp
+  skin			female/lotus
+  dogtag		bloody
+}
+
+{
+  fun_name		"[BOT]Mrs. SneakySneak"
+  name			sneak1
+  skin			female/disguise
+  dogtag		aoe
+}
+
+{
+  fun_name		"[BOT]Mr. SneakySneak"
+  name			sneak2
+  skin			male/disguise
+  dogtag		arena
+}
+
+{
+  fun_name		"[BOT]SneakySneak Jr."
+  name			sneak3
+  skin			cyborg/disguise
+  dogtag		daggerfall
+}
+
+{
+  fun_name		"[BOT]parsnib"
+  name			parsnib
+  skin			female/brianna
+  dogtag		arena
+}
+
+{
+  fun_name		"[BOT]peanut"
+  name			peanut
+  skin			cyborg/oni911
+  dogtag		keen
+}
+
+{
+  fun_name		"[BOT]Heidi Lightning"
+  name			heidi
+  skin			female/ensign
+  dogtag		freecell
+}
+
+{
+  fun_name		"[BOT]Behemoth"
+  name			behem
+  skin			cyborg/oni911
+  dogtag		nightdive
+}
+
+{
+  fun_name		"[BOT]Istvan"
+  name			ist
+  skin			male/howitzer
+  dogtag		keen
+}
+
+{
+  fun_name		"[BOT]Chad"
+  name			chad
+  skin			male/sniper
+  dogtag		freecell
+}
+
+{
+  fun_name		"[BOT]Riku Estia"
+  name			riku
+  skin			male/psycho
+  dogtag		wolf3d2
+}
+
+{
+  fun_name		"[BOT]Shab"
+  name			shab
+  skin			female/athena
+  dogtag		wolf3d2
+}
+
+{
+  fun_name		"[BOT]Ronald Railgun"
+  name			ronald
+  skin			male/grunt
+  dogtag		quake
+}
+
+{
+  fun_name		[BOT]Echo
+  name			echo
+  skin			male/razor
+  dogtag		doom
+}
+
+{
+  fun_name		[BOT]Marly
+  name			marly
+  skin			female/brianna
+  dogtag		quake
+}
+
+{
+  fun_name		[BOT]Fragenstein
+  name			fragenstein
+  skin			male/deaddude
+  dogtag		bloody
+}
+
+{
+  fun_name		[BOT]Leoniden
+  name			leoniden
+  skin			male/scout
+  dogtag		id
+}
+
+{
+  fun_name		[BOT]Stellaris
+  name			stellaris
+  skin			female/stiletto
+  dogtag		aoe
+}
+
+{
+  fun_name		[BOT]Alvajid
+  name			alvajid
+  skin			male/recon
+  dogtag		doom
+}
+
+{
+  fun_name		[BOT]Ash
+  name			ash
+  skin			male/deaddude
+  dogtag		bloody
+}
+
+{
+  fun_name		[BOT]Netic
+  name			netic
+  skin			cyborg/tyr574
+  dogtag		wolf3d
+}
+
+{
+  fun_name		[BOT]Droi
+  name			droi
+  skin			cyborg/oni911
+  dogtag		wolf3d
+}
+
+{
+  fun_name		[BOT]Axel
+  name			axel
+  skin			male/disguise
+  dogtag		doom
+}
+
+{
+  fun_name		[BOT]Felix
+  name			felix
+  skin			male/flak
+  dogtag		quake
+}
+
+{
+  fun_name		[BOT]Suv
+  name			suv
+  skin			female/lotus
+  dogtag		id
+}
+
+{
+  fun_name		"[BOT]The Doctor"
+  name			doctor
+  skin			female/brianna
+  dogtag		quake
+}
+
+{
+  fun_name		[BOT]Enpiar
+  name			enpiar
+  skin			male/cipher
+  dogtag		bloody
+}
+
+{
+  fun_name		[BOT]Eques
+  name			eques
+  skin			male/psycho
+  dogtag		bloody
+}
+
+{
+  fun_name		"[BOT]Leonardo da Winner"
+  name			leonardo
+  skin			male/psycho
+  dogtag		bloody
+}
+
+{
+  fun_name		"[BOT]Bob The Frag Queen"
+  name			roberta
+  skin			female/ensign
+  dogtag		skifree
+}
+
+{
+  fun_name		"[BOT]Ammo X Change"
+  name			womanofSTEM
+  skin			female/athena
+  dogtag		chips
+}
+
+{
+  fun_name		"[BOT]Lady Bunnyhopper"
+  name			oldbunbun
+  skin			female/athena
+  dogtag		fireblu
+}
+
+{
+  fun_name		"[BOT]Gia Railgunn"
+  name			boomboomgunn
+  skin			female/lotus
+  dogtag		nightdive
+}
+
+{
+  fun_name		"[BOT]Willow Kill"
+  name			anglegirl
+  skin			female/stiletto
+  dogtag		aoe
+}
+
+{
+  fun_name      [BOT]BubkeZ
+  name          bubkez
+  skin          male/razor
+  dogtag        machinegames
+}
+
+{
+  fun_name      [BOT]Linnsan
+  name          linn
+  skin          female/voodoo
+  dogtag        quake
+}
+
+{
+  fun_name      [BOT]Lajjan
+  name          elise
+  skin          female/jezebel
+  dogtag        skifree
+}
+
+{
+  fun_name		[BOT]SandriX
+  name			sand
+  skin			female/venus
+  dogtag		machinegames
+}
+
+{
+  fun_name		[BOT]Elf-Erik
+  name			elf
+  skin			male/pointman
+  dogtag		freecell
+}
+
+{
+  fun_name		[BOT]Doris
+  name			doris
+  skin			female/jungle
+  dogtag		minesweeper
+}
+
+{
+  fun_name		[BOT]SupSuper
+  name			supsuper
+  skin			male/recon
+  dogtag		chips
+}
+
+{
+  fun_name      [BOT]Latrodectus
+  name          latro
+  skin          male/rogue_b
+  dogtag 		nightdive
+}
+
+{
+  fun_name      [BOT]Altazimuth
+  name          max
+  skin          male/disguise
+  dogtag 		nightdive
+}
+
+{
+  fun_name      [BOT]Millenia
+  name          mill
+  skin          female/athena
+  dogtag 		nightdive
+}
+
+{
+  fun_name      [BOT]GrowthKasei
+  name          growth
+  skin          male/grunt
+  dogtag 		nightdive
+}
+
+{
+  fun_name      "[BOT]Happy Birthday, Kevin!"
+  name          kevin
+  skin          male/rogue_r
+  dogtag        nightdive
+}
+
+{
+  fun_name      [BOT]Kicker
+  name          kick
+  skin          male/razor
+  dogtag 		nightdive
+}
+
+{
+  fun_name		"[BOT]Henry Grey"
+  name			hengrey
+  skin			male/rampage
+  dogtag		arena
+}
+
+{
+  fun_name      [BOT]MasterJim
+  name          jim
+  skin          male/cipher
+  dogtag 		nightdive
+}
+
+{
+  fun_name      [BOT]Foxtrot
+  name          fox
+  skin          male/viper
+  dogtag 		nightdive
+}
+
+{
+  fun_name		[BOT]Levelhead
+  name			level
+  skin			male/grunt
+  dogtag		machinegames
+}
+
+{
+  fun_name		[BOT]LEX
+  name			lex
+  skin			male/scout
+  dogtag		quake
+}
+
+{
+  fun_name		[BOT]TomF
+  name			tomf
+  skin			male/deaddude
+  dogtag		machinegames
+}
+
+{
+  fun_name		"[BOT](*ty)Radar"
+  name			radar
+  skin			male/major
+  dogtag		ctf_blue 
+}
+
+{
+  fun_name		"[BOT](*ty)Halo"
+  name			halo
+  skin			female/cobalt
+  dogtag		ctf_blue 
+}
+
+{
+  fun_name		[BOT]RedAppleIvy
+  name			red
+  skin			male/flak
+  dogtag		machinegames
+}
+
+{
+  fun_name		[BOT]Makkon
+  name			makk
+  skin			male/howitzer
+  dogtag		machinegames
+}
+
+{
+  fun_name      [BOT]Cardboard
+  name          card
+  skin          male/rogue_r
+  dogtag 		nightdive
+}
+
+{
+  fun_name      [BOT]kingd8m
+  name          king
+  skin          female/rogue_r
+  dogtag 		wasteland
+}
+
+{
+  fun_name      [BOT]Quasar
+  name          quasar
+  skin          male/recon
+  dogtag 		nightdive
+}
+
+{
+  fun_name		"[BOT]Xander"
+  name			xander
+  skin			cyborg/ctf_r
+  dogtag		skifree 
+}
+
+{
+  fun_name		"[BOT]Atheener"
+  name			atheen
+  skin			female/athena
+  dogtag		fireblu
+}
+
+{
+  fun_name		"[BOT]Bunbun"
+  name			buns
+  skin			female/voodoo
+  dogtag		powerslave
+}
+
+{
+  fun_name		"[BOT]Bunmilla"
+  name			buny
+  skin			female/ensign
+  dogtag		shadowman
+}
+
+{
+  fun_name		"[BOT]Skippiedolittle"
+  name			skip
+  skin			male/insane2
+  dogtag		bladerunner
+}
+
+{
+  fun_name		"[BOT]AngerMan"
+  name			anger
+  skin			male/pointman
+  dogtag		bronze
+}
+
+{
+  fun_name		"[BOT]6StringMachine"
+  name			6string
+  skin			cyborg/ps9000
+  dogtag		blood
+}
+
+{
+  fun_name		"[BOT]BestAround"
+  name			best
+  skin			male/insane3
+  dogtag		aoe
+}
+
+{
+  fun_name		"[BOT]CafeCrawler"
+  name			cafe
+  skin			male/insane1
+  dogtag		turok3
+}
+
+{
+  fun_name		"[BOT]SquirrelTamer"
+  name			tamer
+  skin			female/ctf_b
+  dogtag		ss2
+}
+
+{
+  fun_name		"[BOT]Revenge of the Beans"
+  name			beans
+  skin			cyborg/oni911
+  dogtag		minesweeper
+}
+
+{
+  fun_name		"[BOT]OfficerPurplePal"
+  name			officer
+  skin			cyborg/ctf_b
+  dogtag		skifree
+}
+
+{
+  fun_name		"[BOT]L00kBehindU"
+  name			behind
+  skin			female/rogue_b
+  dogtag		turok
+}
+
+{
+  fun_name		"[BOT]Shawty Mc'Shorterson"
+  name			shawty
+  skin			female/rogue_r
+  dogtag		nightdive
+}
+
+{
+  fun_name		"[BOT]Car Go Vroom"
+  name			car
+  skin			male/rogue_b
+  dogtag		ssr
+}
+
+{
+  fun_name		"[BOT]Salty"
+  name			salt
+  skin			cyborg/disguise
+  dogtag		blood
+}
+
+{
+  fun_name		"[BOT]Jemmie"
+  name			jem
+  skin			cyborg/ctf_b
+  dogtag		aoe
+}
+
+{
+  fun_name		"[BOT]Vanilla Lightning"
+  name			vanilla
+  skin			male/deaddude
+  dogtag		doom64
+}
+
+
+
+
+
+
+
